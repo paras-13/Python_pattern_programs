@@ -37,7 +37,7 @@ E E E E E
     A
 """
 # Code-->
-Ascii = 69
+Ascii = 64 + rows
 for p in range(rows):
     for q in range(p):
         print(" ",end = "")
