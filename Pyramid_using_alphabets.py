@@ -1,4 +1,4 @@
-# Program to print a pattern of equilateral triangle or pyramid using numbers
+# Program to print a pattern of equilateral triangle or pyramid using alphabets
 """
 Using alphabets in ascending order.
 Demo eg:
@@ -37,11 +37,11 @@ E E E E E
     A
 """
 # Code-->
-Ascii = 65
+Ascii = 69
 for p in range(rows):
     for q in range(p):
         print(" ",end = "")
-    for r in range(rows):
+    for r in range(rows-p):
         print(f"{chr(Ascii)} ",end = "")
-    Ascii+=1
+    Ascii-=1
     print()
