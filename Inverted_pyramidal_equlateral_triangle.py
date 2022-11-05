@@ -16,3 +16,4 @@ for i in range(rows):
     for k in range(rows-i):       # Prints asterik
         print("* ",end='')
     print()
+
