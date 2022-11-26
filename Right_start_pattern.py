@@ -1,4 +1,4 @@
-# Program to print a right start pattern
+# Program to print a right pascal's triangle pattern
 """
 Demo
 *
