@@ -25,6 +25,6 @@ def lower():
         for k in range(n-(i+1)):
             print(" *",end = "")
         print()
-n = int(input())
+n = int(input("Enter a number"))
 higher()
 lower()
